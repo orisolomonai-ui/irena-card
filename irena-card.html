@@ -458,9 +458,10 @@
     overflow:hidden;
     transition:max-height .35s ease, opacity .3s ease;
   }
-  .timeline.js-ready .tl-item.active .tl-text{ max-height:90px; opacity:1; }
+  .timeline.js-ready .tl-item.active .tl-text{ max-height:210px; opacity:1; }
   .tl-year{ font-size:12px; font-weight:600; color:var(--brass); font-variant-numeric:tabular-nums; }
   .tl-label{ font-size:13px; color:var(--ink-dim); line-height:1.45; margin-top:2px; }
+  .tl-detail{ font-size:12px; color:var(--ink-faint); line-height:1.55; margin-top:6px; }
   .tl-item.active .tl-year{ color:var(--brass-bright); }
   .tl-item.active .tl-label{ color:var(--ink); font-weight:500; }
 
@@ -561,15 +562,11 @@
     </button>
     <button class="tl-item" type="button">
       <div class="tl-node"><span class="tl-dot"></span><span class="tl-connector"></span></div>
-      <div class="tl-body"><div class="tl-text"><div class="tl-label">גל מטבחים</div></div></div>
-    </button>
-    <button class="tl-item" type="button">
-      <div class="tl-node"><span class="tl-dot"></span><span class="tl-connector"></span></div>
-      <div class="tl-body"><div class="tl-text"><div class="tl-label">הום סנטר מטבחים</div></div></div>
-    </button>
-    <button class="tl-item" type="button">
-      <div class="tl-node"><span class="tl-dot"></span><span class="tl-connector"></span></div>
       <div class="tl-body"><div class="tl-text"><div class="tl-year">2024</div><div class="tl-label">ניהול ותיאום אדריכלי · מרכז הבנייה הישראלי</div></div></div>
+    </button>
+    <button class="tl-item" type="button">
+      <div class="tl-node"><span class="tl-dot"></span><span class="tl-connector"></span></div>
+      <div class="tl-body"><div class="tl-text"><div class="tl-year">2023–2024</div><div class="tl-label">מעצבת מטבחים · Gal Kitchens</div><div class="tl-detail">תכנון ועיצוב היקפי כולל מערכות חשמל ואינסטלציה · מול רוכשי דירות בפרויקטים</div></div></div>
     </button>
     <button class="tl-item" type="button">
       <div class="tl-node"><span class="tl-dot"></span><span class="tl-connector"></span></div>
@@ -577,11 +574,11 @@
     </button>
     <button class="tl-item" type="button">
       <div class="tl-node"><span class="tl-dot"></span><span class="tl-connector"></span></div>
-      <div class="tl-body"><div class="tl-text"><div class="tl-year">2012–2024</div><div class="tl-label">ניהול עסק עצמאי בתחום העיצוב (12 שנה)</div></div></div>
+      <div class="tl-body"><div class="tl-text"><div class="tl-year">2017</div><div class="tl-label">עיצוב חללים מסחריים · סטודיו 6B</div></div></div>
     </button>
     <button class="tl-item" type="button">
       <div class="tl-node"><span class="tl-dot"></span><span class="tl-connector"></span></div>
-      <div class="tl-body"><div class="tl-text"><div class="tl-year">2017</div><div class="tl-label">עיצוב חללים מסחריים · סטודיו 6B</div></div></div>
+      <div class="tl-body"><div class="tl-text"><div class="tl-year">2008–2023</div><div class="tl-label">מעצבת מטבחים וחדרי אמבטיה · הום סנטר</div><div class="tl-detail">תכנון ועיצוב מול לקוחות כולל הכנת תכניות עבודה · עיצוב ממוחשב ב-Design Dialog · הכשרה במפעל Nobilia בגרמניה · הסמכות ספקי גמר: אבן קיסר, DEKTON, BLURAN</div></div></div>
     </button>
     <button class="tl-item" type="button">
       <div class="tl-node"><span class="tl-dot"></span></div>
@@ -627,4 +624,3 @@
     }
   })();
 </script>
-
